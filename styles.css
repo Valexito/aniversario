@@ -1,49 +1,57 @@
+* {
+    background-color: #e3c47d; /* Fondo celeste claro */
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
-    background-color: #333;
+    background-color: #216ca6; /* Fondo celeste claro */
+}
+
+/* El resto de tus estilos CSS permanecen sin cambios */
+header {
+
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-  }
-  
-  main {
+}
+
+main {
     padding: 2rem 0;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .gallery {
+}
+
+.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 10px;
-    justify-items: center;
-    margin-bottom: 2rem;
-  }
-  
-  .gallery img {
+    justify-items: center; /* Centra los elementos horizontalmente */
+    margin: 0 auto; /* Centra el div en la página */
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+
+.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  .song {
+}
+
+.song {
     text-align: center;
-  }
+}
+
+footer {
   
-  footer {
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  
+}
